@@ -1,0 +1,20 @@
+packages:
+  "framer-motion": "For page transitions and micro-interactions"
+  "date-fns": "For formatting the session timer"
+  "@hookform/resolvers": "For Zod form validation"
+  "lucide-react": "For beautiful icons"
+  "zustand": "For elegant global state management for auth and cart"
+
+images:
+  - path: "artifacts/ecommerce-dashboard/public/images/auth-bg.png"
+    description: "Abstract, elegant gradient mesh in soft indigo, periwinkle, and pale white, light and airy, premium modern e-commerce feel"
+    aspect_ratio: "16:9"
+  - path: "artifacts/ecommerce-dashboard/public/images/hero-banner.png"
+    description: "Clean, minimal lifestyle e-commerce banner, modern desk setup with subtle plants and neutral tones, high end editorial style"
+    aspect_ratio: "21:9"
+
+notes:
+  - App is entirely frontend-driven using localStorage for persistence
+  - Implements custom 5-minute session timeout logic
+  - Uses FakeStore API for product catalog
+  - Zustand used for global Auth and Cart state to ensure UI stays perfectly synced without prop drilling
